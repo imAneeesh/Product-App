@@ -1,0 +1,25 @@
+ul {
+    padding: 0;
+
+    li {
+        font-weight: 400;
+        list-style-type: none;
+        margin: .5rem;
+        cursor: pointer;
+        border-radius: 25px;
+        padding: .5rem 1rem;
+        
+        &:hover {
+            padding: .5rem 1rem;
+            background: rgb(95, 95, 95);
+            color: white;
+            border-radius: 25px;
+        }
+
+        &.active {
+            font-weight: 600;
+            color: white;
+            background: rgb(20, 14, 14);
+        }
+    }
+}
